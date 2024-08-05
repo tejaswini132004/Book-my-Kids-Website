@@ -1,0 +1,205 @@
+.Login-main1{
+    padding: 80px 70px;
+    /* font-size:x-large; */
+    font-size: 22px;
+}
+.Login-main1 h3{
+    font-weight: 500;
+    margin-bottom: 2px;
+}
+.Login-main2-container{
+  
+    margin: 0% auto;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    height: 500px;
+    width: 450px;
+    margin-bottom: 12%;
+    padding: 30px;
+    text-align: center;
+    background-color: black;
+    color: #fff ;
+}
+.Login-main2-container h4{
+font-size: 23px;
+color: rgb(227, 37, 37);
+
+}
+.Login-input{
+    display: flex;
+    flex-direction: column;
+    
+}
+.Login-input label{
+    text-align: start;
+    font-size: 18px;
+    color: #fff;
+}
+.Login-input input{
+    height: 30px;
+    border: none;
+    /* background-color: #fff; */
+    border-radius: 5px;
+}
+.Login-checkbox{
+    display: flex;
+    align-items: start;
+    align-items: center;
+   font-weight: 200;
+}
+.Login-btn1{
+    margin: 15px;
+    font-size: 20px;
+    padding: 10px 70px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(227, 37, 37);
+    color: #fff;
+    cursor: pointer;
+    font-weight: 300;
+    margin-top: 30px;
+}
+.Login-with{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    font-weight: 200;
+}
+.Login-img {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+    z-index: 2; 
+}
+
+.Login-img img {
+    height: 20px;
+    width: 20px;
+    z-index: 2;
+}
+
+/*Responsiveness*/
+
+@media (max-width: 1024px) {
+    .Login-main1 {
+        padding: 60px 30px; 
+    }
+
+    .Login-main2-container {
+        padding: 20px;
+        max-width: 90%; 
+    }
+
+    .Login-btn1 {
+        padding: 10px 40px; 
+    }
+
+    .Login-img img {
+        height: 30px; 
+        width: 30px; 
+    }
+}
+
+/* Responsive adjustments for mobile phones */
+@media (max-width: 768px) {
+    .Login-main1 {
+        padding: 30px 15px; 
+        font-size: 16px; 
+    }
+
+    .Login-main1 h3 {
+        font-size: 20px; 
+    }
+
+    .Login-main2-container {
+        padding: 15px;
+        max-width: 95%; 
+    }
+
+    .Login-main2-container h4 {
+        font-size: 18px; 
+    }
+
+    .Login-input label {
+        font-size: 14px; 
+    }
+
+    .Login-input input {
+        height: 35px; 
+        font-size: 14px; 
+    }
+
+    .Login-checkbox {
+        font-size: 14px; 
+    }
+
+    .Login-btn1 {
+        padding: 10px 30px; 
+        font-size: 16px; 
+    }
+
+    .Login-with {
+        font-size: 14px; 
+    }
+
+    .Login-img {
+        gap: 10px; 
+    }
+
+    .Login-img img {
+        height: 20px; 
+        width: 20px; 
+    }
+}
+
+/* Responsive adjustments for very small screens */
+@media (max-width: 480px) {
+    .Login-main1 {
+        padding: 20px 10px; 
+        font-size: 14px; 
+    }
+
+    .Login-main1 h3 {
+        font-size: 18px; 
+    }
+
+    .Login-main2-container {
+        padding: 10px;
+    }
+
+    .Login-main2-container h4 {
+        font-size: 16px; 
+    }
+
+    .Login-input label {
+        font-size: 12px; 
+    }
+
+    .Login-input input {
+        height: 30px; 
+        font-size: 12px; 
+    }
+
+    .Login-checkbox {
+        font-size: 12px; 
+    }
+
+    .Login-btn1 {
+        padding: 10px 20px; 
+        font-size: 14px; 
+    }
+
+    .Login-with {
+        font-size: 12px; 
+    }
+
+    .Login-img {
+        gap: 5px; 
+    }
+
+    .Login-img img {
+        height: 15px; 
+        width: 15px; 
+    }
+}

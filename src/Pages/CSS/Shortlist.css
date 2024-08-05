@@ -1,0 +1,124 @@
+.shortlist-main{
+    margin-bottom: 70px;
+}
+.shortlist-h3{
+    font-size: 35px;
+    padding: 20px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+.shortlist-main1{
+    height: 200px;
+    margin: 0% 30px;
+    margin-bottom: 10px;
+    /* border: 1px solid black; */
+    box-shadow: 5px 1px 10px black;
+    padding: 20px;
+    /* display: flex;
+    justify-content: space-between; */
+}
+.shortlist-img{
+display: flex;
+gap: 10px;
+}
+.shortlist-img img{
+    height: 20px;
+}
+.shortlist-text h4{
+    color: rgb(227, 37, 37);
+    font-size: 25px;
+}
+.shortlist-text p{
+    color:rgb(227, 37, 37) ;
+    font-size: 18px;
+}
+.shortlist-text-img{
+    display: flex;
+    justify-content: space-between;
+}
+.shortlist-lorem{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.shortlist-apply-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.shortlist-btn1{
+    font-size: 18px;
+    color: #fff;
+    background-color:rgb(227, 37, 37) ;
+    border-radius: 5px;
+    border: none;
+    padding: 8px 30px;
+    cursor: pointer;
+}
+.shortlist-browse{
+    color:rgb(227, 37, 37) ;
+    padding-left: 20px;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+/*Responsiveness*/
+
+@media (max-width: 768px) {
+    .shortlist-main1 {
+        margin: 0 15px; 
+        padding: 15px;
+    }
+
+    .shortlist-h3 {
+        font-size: 30px; 
+    }
+
+    .shortlist-text h4 {
+        font-size: 22px; 
+    }
+
+    .shortlist-text p {
+        font-size: 16px; 
+    }
+
+    .shortlist-btn1 {
+        font-size: 16px; 
+        padding: 6px 20px; 
+    }
+
+    .shortlist-browse {
+        font-size: 16px; 
+    }
+}
+
+/* Responsive styles for mobile phones */
+@media (max-width: 480px) {
+    .shortlist-main1 {
+        height: 300px;
+        margin: 0 10px; 
+        padding: 10px; 
+    }
+
+    .shortlist-h3 {
+        font-size: 24px; 
+    }
+
+    .shortlist-text h4 {
+        font-size: 20px; 
+    }
+
+    .shortlist-text p {
+        font-size: 14px;
+    }
+
+    .shortlist-btn1 {
+        font-size: 14px; 
+        padding: 5px 15px; 
+    }
+
+    .shortlist-browse {
+        font-size: 14px; 
+        padding-left: 10px; 
+    }
+}
